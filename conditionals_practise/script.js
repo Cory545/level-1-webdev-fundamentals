@@ -12,7 +12,7 @@ if (secondNumber == 50){
 };
 //Now trying to do a if, else if and else
 let thirdNumber = 60;
-if (thirdNumber == 50){
+if (thirdNumber === 50){
     console.log("The number is 50")
 } else if(thirdNumber == 60){
     console.log("The number is 60")
@@ -33,4 +33,12 @@ if (fifthNumber >= 90 && fifthNumber <= 100){
     console.log("Your grade is B")
 } else{
     console.log("Failed basically.")
+};
+//Second trial, using a prompt.
+//I didn't realise I couldn't prompt outside a browser, now I know
+let sixthNumber = Number(prompt("Pick a number between 1 and 10"));
+if (sixthNumber >= 0 && sixthNumber <= 10){
+    console.log("Your number is : " + sixthNumber)
+} else{
+    console.log("You didn't do this correctly.")
 };
