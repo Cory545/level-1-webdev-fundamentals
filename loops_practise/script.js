@@ -22,7 +22,7 @@ for (; bottlesTwo >= 0;) {
 //Now a while loop
 let counter = 10;
 while(counter > 0){
-    console.log("Your counter is at " + counter);
+    console.log("Your counter is at " + counter); 
     counter--;
 };
-
+//Challenge. Make a loop run through the shopping lit, counting with each item to create a list.
