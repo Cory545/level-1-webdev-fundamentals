@@ -26,3 +26,10 @@ while(counter > 0){
     counter--;
 };
 //Challenge. Make a loop run through the shopping lit, counting with each item to create a list.
+let groceries = ["Milk", "Eggs", "Bread", "Butter", "Apples"];
+let g = 0;
+
+while(g < groceries.length){
+    console.log((g+1) + ". " + groceries[g]);
+    g++;
+};
