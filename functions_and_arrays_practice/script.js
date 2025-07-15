@@ -10,3 +10,5 @@ function printGroceries(items){
 };
 
 printGroceries(["Eggs", "Milk", "Cheese"]);
+
+//Challenge 2. Two arrays, one for items and one for prices. Loop through both, print out each item with its corresponding price. At the end, print out the total cost.
