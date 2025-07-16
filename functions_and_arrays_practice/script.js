@@ -26,3 +26,6 @@ function bothGroceries(order, items, prices) {
 }
 
 bothGroceries(groceryOrder, groceries, groceryCost);
+
+//Challenge 3. If the total exceeds £5, apply a discount.
+//Challenge 4. Quantity logic. Each item now needs a quantity, and the price needs to reflect this.
