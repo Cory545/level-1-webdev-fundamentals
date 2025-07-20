@@ -80,5 +80,38 @@ let person ={
 };
 person.greet();
 //Challenege 9. Rebuild my grocery list from functions_and_arrays_practise, using array of objects instead of parralel arrays. Logic for discount if total > 5, in stock or out of stock.
+let finalGroceryList = [
+    {
+        item:"Orange",
+        quantity:5,
+        price:0.50
+    },
+        {
+        item:"Peach",
+        quantity:2,
+        price:0.80
+    },
+        {
+        item:"Grapes",
+        quantity:2,
+        price:2
+    },
+        {
+        item:"Bananas",
+        quantity:1,
+        price:1.50
+    },
+        {
+        item:"Tacos",
+        quantity:2,
+        price:2.50
+    }
+];
 
+function grabGroceries(){
+finalGroceryList.forEach((item, index) =>{
+    console.log(`Challenge 9 : ${index + 1}. ${item.item} - £${item.price * item.quantity}`)
+})
+};
+grabGroceries();
 //Challenge 10. Understand what this refers to inside and object method.
