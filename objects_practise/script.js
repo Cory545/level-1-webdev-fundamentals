@@ -71,6 +71,14 @@ let calculation = {
         return this.price * this.quantity
     }};
 //Challenge 8.5, how this works
-
+console.log("Challenge 8.5");
+let person ={
+    name:"Cory",
+    greet(){
+        console.log("Hello, my name is " + this.name)
+    }
+};
+person.greet();
 //Challenege 9. Rebuild my grocery list from functions_and_arrays_practise, using array of objects instead of parralel arrays. Logic for discount if total > 5, in stock or out of stock.
+
 //Challenge 10. Understand what this refers to inside and object method.
