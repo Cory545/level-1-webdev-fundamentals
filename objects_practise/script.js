@@ -63,6 +63,14 @@ groceryList.forEach((item, index) =>{
 //Challenge 7. Create an object with nested objects inside. Grocery store with sections like dairy, bakery etc.
 //Already did this challenge
 //Challenge 8. Create a method inside an object (a function as a property)
+console.log("Challenge 8")
+let calculation = {
+    price: 10,
+    quantity: 20,
+    getTotal(){
+        return this.price * this.quantity
+    }};
+//Challenge 8.5, how this works
 
 //Challenege 9. Rebuild my grocery list from functions_and_arrays_practise, using array of objects instead of parralel arrays. Logic for discount if total > 5, in stock or out of stock.
 //Challenge 10. Understand what this refers to inside and object method.
