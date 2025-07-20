@@ -115,3 +115,4 @@ finalGroceryList.forEach((item, index) =>{
 };
 grabGroceries();
 //Challenge 10. Understand what this refers to inside and object method.
+//challenge 10 cleared already
