@@ -21,8 +21,45 @@ myObj.deleted = "No";
 delete myObj.deleted;
 console.log("Is deleted, deleted?: "); console.log(myObj);
 //Challenge 4. Loop through an object.
+console.log("Challenge 4");
+console.log(Object.entries(myObj));
+for (const property in myObj){
+  console.log(`${property}: ${myObj[property]}`);
+};
+
 //Challenge 5. Create an array of grocery item objects, loop through name, price and quantities
+console.log("Challenge 5");
+let groceryList = [
+    {
+        item: "Orange",
+        price: 1,
+        quantity: 2
+    },
+    {
+        item: "Banana",
+        price: 2,
+        quantity: 5
+    },
+    {
+        item: "Peach",
+        price: 4,
+        quantity: 2
+    },
+    {
+        item: "Grapes",
+        price: 1,
+        quantity: 20
+    }
+];
+groceryList.forEach((item, index) => {
+    console.log(`${index + 1}. ${item.item} - £${item.price} x ${item.quantity}`);
+});
+
 //Challenge 6. Calculate object total costs. Quantities * price
+console.log("Challenge 6");
+groceryList.forEach((item, index) =>{
+    console.log(`${index + 1}. ${item.item} - £${item.price * item.quantity}`)
+})
 //Challenge 7. Create an object with nested objects inside. Grocery store with sections like dairy, bakery etc.
 //Challenge 8. Create a method inside an object (a function as a property)
 //Challenege 9. Rebuild my grocery list from functions_and_arrays_practise, using array of objects instead of parralel arrays. Logic for discount if total > 5, in stock or out of stock.
