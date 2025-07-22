@@ -11,7 +11,7 @@ document.getElementById("messageBox").innerHTML = "<h3><strong>Success!</strong>
 document.querySelector("#title").style.color = "red";
 document.querySelector("#title").style.backgroundColor = "gray";
 
-
+document.querySelector("button").classList.add("changeStyle")
 // Handling Events
 
 // Creating/Removing Elements
