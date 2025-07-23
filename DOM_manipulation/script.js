@@ -19,4 +19,4 @@ document.getElementById("changeText").addEventListener("click", changeText)
 function changeText(){
     document.querySelector("#title").innerHTML = "<h1><strong>You have changed this!</strong></h1>";
     document.querySelector("#title").classList.add("newTitle");
-}
+}   
